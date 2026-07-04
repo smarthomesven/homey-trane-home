@@ -1,0 +1,1 @@
+Connect your Trane Home devices. Both single-zone and multi-zone thermostats are supported (in case of multi-zone, each zone is added separately).

@@ -1,0 +1,17 @@
+{
+  "1.0.0": {
+    "en": "First version!"
+  },
+  "0.0.1": {
+    "en": "First test version"
+  },
+  "0.0.2": {
+    "en": "First attempt at zone control"
+  },
+  "0.0.3": {
+    "en": "Fixes"
+  },
+  "0.0.4": {
+    "en": "Fix for single-zone"
+  }
+}

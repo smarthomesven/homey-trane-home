@@ -1,0 +1,80 @@
+{
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
+  "id": "com.mynexia",
+  "version": "1.0.0",
+  "compatibility": ">=12.4.0",
+  "sdk": 3,
+  "runtime": "nodejs",
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Trane Home"
+  },
+  "description": {
+    "en": "It's Hard To Stop A Trane"
+  },
+  "category": [
+    "climate"
+  ],
+  "brandColor": "#EE3125",
+  "source": "https://github.com/smarthomesven/homey-trane-home",
+  "bugs": {
+    "url": "https://github.com/smarthomesven/homey-trane-home/issues"
+  },
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Sven Serlier",
+    "email": "sven@dypodex.com"
+  },
+  "drivers": [
+    {
+      "name": {
+        "en": "Thermostat"
+      },
+      "class": "thermostat",
+      "capabilities": [
+        "target_temperature.heat",
+        "measure_temperature",
+        "thermostat_mode",
+        "target_temperature.cool"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "cloud"
+      ],
+      "images": {
+        "small": "/drivers/zone/assets/images/small.png",
+        "large": "/drivers/zone/assets/images/large.png",
+        "xlarge": "/drivers/zone/assets/images/xlarge.png"
+      },
+      "pair": [
+        {
+          "id": "login"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          },
+          "options": {
+            "singular": false
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "id": "zone"
+    }
+  ]
+}

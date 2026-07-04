@@ -1,0 +1,34 @@
+{
+  "id": "com.mynexia",
+  "version": "1.0.0",
+  "compatibility": ">=12.4.0",
+  "sdk": 3,
+  "runtime": "nodejs",
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Trane Home"
+  },
+  "description": {
+    "en": "It's Hard To Stop A Trane"
+  },
+  "category": [
+    "climate"
+  ],
+  "brandColor": "#EE3125",
+  "source": "https://github.com/smarthomesven/homey-trane-home",
+  "bugs": {
+    "url": "https://github.com/smarthomesven/homey-trane-home/issues"
+  },
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Sven Serlier",
+    "email": "sven@dypodex.com"
+  }
+}
