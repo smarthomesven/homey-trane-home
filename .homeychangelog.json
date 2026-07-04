@@ -16,5 +16,8 @@
   },
   "1.0.1": {
     "en": "Added topic ID to the app manifest"
+  },
+  "1.0.2": {
+    "en": "Added icon for thermostat device"
   }
 }
