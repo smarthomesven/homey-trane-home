@@ -13,5 +13,8 @@
   },
   "0.0.4": {
     "en": "Fix for single-zone"
+  },
+  "1.0.1": {
+    "en": "Added topic ID to the app manifest"
   }
 }
