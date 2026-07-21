@@ -19,5 +19,8 @@
   },
   "1.0.2": {
     "en": "Added icon for thermostat device"
+  },
+  "1.0.3": {
+    "en": "Fix pairing page"
   }
 }
